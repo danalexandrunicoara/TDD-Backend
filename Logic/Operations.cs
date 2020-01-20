@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BusinessLogic
+namespace Logic
 {
 	/// <summary>
 	///     Operations class.

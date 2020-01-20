@@ -3,11 +3,11 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using Newtonsoft.Json;
 
-namespace BusinessLogic
+namespace Logic
 {
 	public class JokeClient
 	{
-		private readonly HttpClient _client = new HttpClient {BaseAddress = new Uri("https://api.icndb.com")};
+		private readonly HttpClient _client = new HttpClient {BaseAddress = new Uri("https://api.icndb.com/")};
 
 		public JokeClient()
 		{

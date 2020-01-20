@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace BusinessLogic
+namespace Logic
 {
 	public class Value
 	{
